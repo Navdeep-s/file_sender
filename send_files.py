@@ -18,8 +18,9 @@ class ClientKill(Exception):
 
 
 
-
+#change the file saving path to your own
 saving_file_path = "E:\\mobile_downloads"
+
 
 
 # os.chdir(saving_file_path)
