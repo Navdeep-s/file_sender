@@ -9,3 +9,4 @@ steps to use app
 5. now in android app type the ip as shown in pc terminal and click connect
 6. now you can send file from pc or from android 
  
+note. In android all the files will be saved in /android/data/com.example.test_reciever 
