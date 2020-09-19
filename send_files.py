@@ -130,7 +130,7 @@ def file_sender(client_local,file_path,progress):
     y = open(file_path,"rb")
     sended = 0
     while True:
-        read_bytes = y.read(1024)
+        read_bytes = y.read(10240) #here adjust the size if you want
         if not read_bytes:
             break
         client_local.sendall(read_bytes)
